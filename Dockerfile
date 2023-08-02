@@ -1,5 +1,5 @@
 # 使用 JDK 11 作为基础镜像
-FROM adoptopenjdk:11-jdk-hotspot
+FROM meddream/jdk17
 
 # 将 JAR 文件复制到容器中的 /app 目录
 COPY target/MyDockerApplication-0.0.1-SNAPSHOT.jar /app/
